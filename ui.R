@@ -1,7 +1,7 @@
 library(shiny)
 
 ui <- fluidPage(
-  titlePanel("Breakout Game - Paddle controlled by scrollbar"),
+  titlePanel("Breakout Game - Paddle controlled by mouse"),
   sidebarLayout(
     position = "right",
     sidebarPanel(
