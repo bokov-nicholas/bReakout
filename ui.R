@@ -9,7 +9,7 @@ ui <- fluidPage(
     ),
     mainPanel(
       plotOutput("game", height = 420
-                 , hover = hoverOpts("plot_hover",delay=50,nullOutside = F,delayType = 'throttle'))
+                 , hover = hoverOpts("plot_hover",delay=10,nullOutside = F,delayType = 'throttle'))
     )
   )
 )
